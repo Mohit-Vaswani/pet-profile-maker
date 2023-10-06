@@ -19,6 +19,25 @@ body {
   background: var(--primary-color);
 }
 
-.petCard{
+.petCardContainer{
   background-image: linear-gradient(to top, #f3e7e9 0%, #e3eeff 99%, #e3eeff 100%);
+}
+
+.petCard{
+  width: 450px;
+  padding: 2rem;
+  min-height: 500px;
+  border-radius: 1.5rem;
+  background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+}
+
+.petCard label{
+  font-size: 1.3rem;
+  color: #bfbfbf;
+}
+
+.petCard p{
+  font-size: 1.5rem;
+  color: #d6d6d6;
+  margin-bottom: 1rem;
 }
